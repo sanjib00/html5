@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>HTML Form</title>
+</header>
+
+<body>
+	<form method="GET">
+		<fieldset>
+			<legend>Online Student Registration</legend>
+			
+				Title Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="title">
+					<option value="selectone">Select One</option>
+					<option value="Mr.">Mr.</option>
+					<option value="Mrs.">Mrs.</option>
+					<option value="Miss">Miss</option>
+				</select><br/>
+			
+				<label for="fullname">First Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="txtfirstname" id="fullname" placeholder="e.g Kamal"/><br/>
+				<label for="middlename">Middle Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="txtmiddlename" id="middlename" placeholder="your middle name"/><br/>
+				<label for="lastname">Last Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="txtlastname" id="lastname" placeholder="your last name"/><br/>
+			
+				<label>Gender :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="maletext" value="Male"/>Male<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="femaletext" value="Female"/>Female<br/>
+			
+				<label for="username">User Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="txtusername" id="username" placeholder="an unique id"/><br/>
+			
+				<label for="password">Password :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" name="passwordtext" id="password" placeholder="eg. atleast 8 digit including special character like $%^&*#@ etc"/><br/>
+				<label for="verpassword">verify Password :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" name="verpasswordtext" id="verpassword"/><br/>
+			
+				<label for="emailaddress">e-mail address :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="email" name="emailtext" id="emailaddress" placeholder="eg. xyz@yahoo.com"/><br/>
+				<label for="veremail">verify email address :</label>&nbsp;&nbsp;
+				<input type="email" name="veremailtext" id="veremail" placeholder="eg. xyz@yahoo.com"/><br/>
+			
+				<label for="birthday">Date of Birth :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="date" name="birthdaytext" id="birthday" /><br/>
+				
+				Religious View :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="religiousview">
+					<option value="selectone">Select One</option>
+					<option value="Muslim">Muslim</option>
+					<option value="Hindu">Hindu</option>
+					<option value="Buddhist">Buddhist</option>
+					<option value="Christian">Christian</option>
+				</select><br/>
+				
+				<label for="presentaddress">Present Address :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="presentaddresstext" id="presentaddress" /><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;<input type="text" name="presentaddresstext"/><br/>
+				
+				<label for="permanentaddress">Permanent Address :</label>&nbsp;&nbsp;&nbsp;
+				<input type="text" name="permanentaddressext" id="permanentaddress" /><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="permanentaddressext"/><br/>
+				
+				<label for="contactnumber">Contact Number :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="tel" name="contactnumbertext" id="contactnumber" /><br/>
+				
+				
+				Mobile Number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="mobilenumber">
+				<option value="operator">Select Operator</option>
+					<option value="GP">+88017</option>
+					<option value="airtel">+88016</option>
+					<option value="Teletalk">+88015</option>
+					<option value="Banglalink">+88019</option>
+					<option value="Robi">+88018</option>
+					<option value="Citycell">+88011</option>
+					<input type="tel" name="mobilenumbertext"/><br/>
+				</select><br/>
+				
+				Security Question :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="question">
+				<option value="00">Select One</option>
+					<option value="1">What is the name of your first School?</option>
+					<option value="2">What is your Father's middle name?</option>
+					<option value="3">What is your favourite hobby?</option>
+					<option value="4">What is the name of your first pet animal?</option><br/>
+					<input type="text" name="question" placeholder="write your answer here."/><br/>
+				</select><br/>
+				
+				<input type="checkbox" name="agreement">If you agree our all terms and conditions click here. </br>
+				<input type="checkbox" name="disagree"> Disagree <br/><br/><br/>
+				<input type="submit" name="submitbutton" value="Sign Up"/>
+		</fieldset>
+	</form>
+</body>
+</html>
