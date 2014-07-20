@@ -41,3 +41,8 @@ b~i{
 #zen-summary{
 	background-color:pink;
 }
+
+.danger{
+	color:red;
+	font-size:50px;
+}
