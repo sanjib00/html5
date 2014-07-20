@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Role of Margin in html normal flow</title>
+		<title>Float</title>
 		<!-- including an external css -->
 		<style type="text/css">
 		
 		h1{
 			background-color: green;
+			position:absolute;
 		}
 		
 		div{
@@ -26,20 +27,29 @@
 
 			strong{
 			
-				position:relative;
-				top:100px;
-				left:200px;
+				position:absolute;
+				top:20px;
+				left:10px;
 				
+				}
+				div{
+					position:relative; /* div position parent */
+				}
+				p{
+					
 				}
 			
 		</style>
 	</head>
 	<body>
+	
 		<h1>Hi,<i> FTFL</i></h1>
 		<div>
 			<span>FTFL01</span>
 			<strong>BATCH</strong>
+			
 		</div>
+	
 	
 	</body>
 </html>
