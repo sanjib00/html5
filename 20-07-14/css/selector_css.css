@@ -1,3 +1,9 @@
+
+/*www.w3.org*/
 *{
 	background-color:green;
 }
+
+div[role] {
+    color:yellow;
+} 
