@@ -23,3 +23,6 @@ li:nth-Child(2){
 a:nth-Child(2n+1){
 	background-color: white;
 }
+a:nth-Child(2n){
+	background-color: yellow;
+}
