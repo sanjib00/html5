@@ -20,9 +20,16 @@ li:nth-Child(2){
 
 /* exercise */
 
-a:nth-Child(2n+1){
+li:nth-Child(2n+1){
 	background-color: white;
 }
-a:nth-Child(2n){
+li:nth-Child(2n){
 	background-color: yellow;
+}
+
+/* select all the a that are child of footer */
+
+footer a{
+
+	background-color:red;
 }
